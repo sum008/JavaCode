@@ -12,7 +12,7 @@ public class TheNightWatch {
 		int count=0;	
 		int n = s.nextInt();
 		int x=0;
-		int y=0;
+		int y=0;//00101010000
 		String arr[] = new String[n];
 		String a = "";
 		for(int i=0; i<n; i++) {

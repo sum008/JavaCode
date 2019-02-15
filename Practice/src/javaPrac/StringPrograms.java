@@ -8,8 +8,8 @@ public class StringPrograms {
 
 	public static void main(String[] args) {
 		
-		Scanner s = new Scanner(System.in);
-		/*int a = s.nextInt();
+		/*Scanner s = new Scanner(System.in);
+		int a = s.nextInt();
 		int b= s.nextInt();
 		int count=0;
 		int mega=0;
@@ -45,7 +45,7 @@ public class StringPrograms {
 			}
 			System.out.println(sum);
 			System.out.println(mega);
-		}*/
+		}
 		
 		
 		int t = s.nextInt();
@@ -74,7 +74,7 @@ public class StringPrograms {
 		}
 		}
 		s.close();
-		/*String a=String.valueOf(2.4);
+		*//*String a=String.valueOf(2.4);
 		System.out.println(a);
 		String a = " ";
 		String s = "my name is sumit kumar";
@@ -114,21 +114,21 @@ public class StringPrograms {
 			for(int j=0; j<x; j++) {
 				System.out.print(str.charAt(i-1));
 			}}
-		
+		*/
 		
 		
 		   int n=3;
-		int count=0;
+		int count2=0;
 		int count1=0;
 		for(int i=0; i<n; i++) {
 			
 			for(int j=0; j<n-i; j++) {
 				
 				System.out.print(" ");
-				count=j;
+				count2=j;
 			}
 			System.out.print("*");
-			for(int k=count; k<n-1; k++) {
+			for(int k=count2; k<n-1; k++) {
 				System.out.print(" *");
 			}
 			System.out.println();
@@ -146,10 +146,11 @@ public class StringPrograms {
 				System.out.print(" *");
 			}
 			System.out.println();
+		}
 		
 		System.out.println("#############################################################################################");
-		
-		String str1 = "2.3.1.4";
+	
+		/*String str1 = "2.3.1.4";
 		String str2= "3.2.0.9";
 		String[] str3 = str1.split("\\.");
 		String[] str4 = str2.split("\\.");
